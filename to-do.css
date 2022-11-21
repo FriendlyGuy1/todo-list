@@ -1,3 +1,27 @@
 body {
     background: linear-gradient(to left, #bf42f5, #f54242, #f5bc42);
 }
+
+.Subject {
+    width: 20%;
+}
+
+.Percent {
+    width: 20%;
+}
+
+.Modified {
+    width: 20%;
+}
+
+.Priority {
+    width: 12%;
+}
+
+.Due {
+    width: 12%;
+}
+
+.Status {
+    width: 12%;
+}

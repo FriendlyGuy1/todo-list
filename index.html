@@ -18,19 +18,19 @@
                 <form>
                     <div class="row">
                     <div class="col-3">
-                        <label for="exampleInputEmail1" class="col-form-label">Subject</label>
+                        <label for="subject" class="col-form-label">Subject</label>
                     </div>
                     <div class="col-9">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="subject" class="form-control" id="subject" aria-describedby="emailHelp" required>
                     </div>
                     </div>
 
                     <div class="row mt-3">
                         <div class="col-3">
-                            <label for="exampleInputEmail1" class="col-form-label">Priority</label>
+                            <label for="priority" class="col-form-label">Priority</label>
                         </div>
                         <div class="col-9">
-                            <div class="input-group">
+                            <div class="input-group" required>
                                 <select class="form-select" id="inputGroupSelect01">
                                   <option selected>Choose...</option>
                                   <option value="High">High</option>
@@ -43,7 +43,7 @@
                     
                     <div class="row mt-3">
                         <div class="col-3">
-                            <label for="exampleInputEmail1" class="col-form-label">Due date</label>
+                            <label for="due-date" class="col-form-label">Due date</label>
                         </div>
                         <div class="col-9">
                             <input id="startDate" class="form-control" type="date" />
@@ -53,7 +53,7 @@
 
                     <div class="row mt-3">
                         <div class="col-3">
-                            <label for="exampleInputEmail1" class="col-form-label">Status</label>
+                            <label for="status" class="col-form-label">Status</label>
                         </div>
                         <div class="col-9">
                             <div class="input-group">
@@ -69,7 +69,7 @@
                     
                     <div class="row mt-3">
                         <div class="col-3">
-                            <label for="exampleInputEmail1" class="col-form-label">Percent Completed</label>
+                            <label for="percent" class="col-form-label">Percent Completed</label>
                         </div>
                         <div class="col-9">
                             <div class="input-group">
@@ -94,12 +94,12 @@
             <div class="col-12 mt-3">
                 <ul class="list-group list-group-horizontal">
                     <li class="list-group-item"> <i class="fa-solid fa-diagram-project"></i></li>
-                    <li class="list-group-item col-2">Subject</li>
-                    <li class="list-group-item col-1">Priority</li>
-                    <li class="list-group-item col-1">Due date</li>
-                    <li class="list-group-item col-1">Status</li>
-                    <li class="list-group-item col-2">Percent completed</li>
-                    <li class="list-group-item col-2">Modified on</li>
+                    <li class="list-group-item Subject">Subject</li>
+                    <li class="list-group-item Priority">Priority</li>
+                    <li class="list-group-item Due">Due date</li>
+                    <li class="list-group-item Status">Status</li>
+                    <li class="list-group-item Percent">Percent completed</li>
+                    <li class="list-group-item Modified">Modified on</li>
                 </ul>
             </div>
         </div>
